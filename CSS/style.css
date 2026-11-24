@@ -78,7 +78,7 @@ header .logo-texto {
     display: flex;
   gap: 1rem;
 }
-menu-horizontal a {
+.menu-horizontal a {
   color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 0.9rem;
