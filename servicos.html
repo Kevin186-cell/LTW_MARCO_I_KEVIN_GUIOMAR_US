@@ -1,95 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BODYGYM - Serviços e Horários</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BODYGYM - Serviços e Horários</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <p><strong>BODYGYM - Vila Cácia</strong></p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="servicos.html">Serviços e Horários</a></li>
-                <li><a href="contactos.html">Contactos</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <strong class="logo-texto">BODYGYM - Vila Cácia</strong>
+    <nav class="menu-horizontal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="servicos.html" class="ativo" aria-current="page">Serviços e Horários</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <h1>Serviços, Horários e Preços</h1>
-        <p>Escolha o plano e as aulas que melhor se adaptam à sua rotina diária.</p>
+  <main>
+    <h1>Serviços, Horários e Preços</h1>
+    <p>Escolha o plano e as aulas que melhor se adaptam à sua rotina diária.</p>
+       <main>
+    <figure>
+      <img src="imagens/musculacao.jpg" alt="Zona de treino de força e musculação do BODYGYM" width="800" height="450">
+      <figcaption>Equipamentos modernos disponíveis em todos os planos.</figcaption>
+    </figure>
 
-        <section>
-            <h2>Tabela de Mensalidades (CVE)</h2>
+    <div class="layout-servicos">
+
+    <div class="layout-servicos">
+      <nav class="menu-vertical" aria-label="Secções de Serviços">
+        <ul>
+          <li><a href="#mensalidades">Tabela de Mensalidades</a></li>
+          <li><a href="#horarios">Horário das Aulas</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <section id="mensalidades">
+          <h2>Tabela de Mensalidades (CVE)</h2>
+          <div class="tabela-responsiva">
             <table>
-                <thead>
-                    <tr>
-                        <th>Plano</th>
-                        <th>Acesso</th>
-                        <th>Preço Mensal</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Treino Diário (Avulso)</td>
-                        <td>1 dia na sala de musculação</td>
-                        <td>300 CVE</td>
-                    </tr>
-                    <tr>
-                        <td>Plano Estudante</td>
-                        <td>Segunda a Sábado (Horário livre)</td>
-                        <td>2.000 CVE</td>
-                    </tr>
-                    <tr>
-                        <td>Plano Livre-Trânsito</td>
-                        <td>Musculação + Todas as Aulas de Grupo</td>
-                        <td>2.800 CVE</td>
-                    </tr>
-                </tbody>
+              <thead>
+                <tr>
+                  <th>Plano</th>
+                  <th>Acesso</th>
+                  <th>Preço Mensal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Treino Diário (Avulso)</td>
+                  <td>1 dia na sala de musculação</td>
+                  <td>300 CVE</td>
+                </tr>
+                <tr>
+                  <td>Plano Estudante</td>
+                  <td>Segunda a Sábado (Horário livre)</td>
+                  <td>2.000 CVE</td>
+                </tr>
+                <tr>
+                  <td>Plano Livre-Trânsito</td>
+                  <td>Musculação + Todas as Aulas de Grupo</td>
+                  <td>2.800 CVE</td>
+                </tr>
+              </tbody>
             </table>
+          </div>
         </section>
 
-        <section>
-            <h2>Horário das Aulas de Grupo</h2>
+        <section id="horarios">
+          <h2>Horário das Aulas de Grupo</h2>
+          <div class="tabela-responsiva">
             <table>
-                <thead>
-                    <tr>
-                        <th>Hora</th>
-                        <th>Segunda e Quarta</th>
-                        <th>Terça e Quinta</th>
-                        <th>Sexta-feira</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>07:00 - 08:00</td>
-                        <td>Treino Funcional</td>
-                        <td>Cardio Fit</td>
-                        <td>Alongamentos</td>
-                    </tr>
-                    <tr>
-                        <td>18:00 - 19:00</td>
-                        <td>Aeróbica</td>
-                        <td>Zumba</td>
-                        <td>Treino Funcional</td>
-                    </tr>
-                    <tr>
-                        <td>19:00 - 20:00</td>
-                        <td>Musculação Guiada</td>
-                        <td>GAP (Glúteos, Abdómen e Pernas)</td>
-                        <td>Zumba</td>
-                    </tr>
-                </tbody>
+              <thead>
+                <tr>
+                  <th>Hora</th>
+                  <th>Segunda e Quarta</th>
+                  <th>Terça e Quinta</th>
+                  <th>Sexta-feira</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>07:00 - 08:00</td>
+                  <td>Treino Funcional</td>
+                  <td>Cardio Fit</td>
+                  <td>Alongamentos</td>
+                </tr>
+                <tr>
+                  <td>18:00 - 19:00</td>
+                  <td>Aeróbica</td>
+                  <td>Zumba</td>
+                  <td>Treino Funcional</td>
+                </tr>
+                <tr>
+                  <td>19:00 - 20:00</td>
+                  <td>Musculação Guiada</td>
+                  <td>GAP (Glúteos, Abdómen e Pernas)</td>
+                  <td>Zumba</td>
+                </tr>
+              </tbody>
             </table>
+          </div>
         </section>
-    </main>
+      </div>
+    </div>
+  </main>
 
-    <footer>
-        <p>&copy; 2026 BODYGYM Vila Cácia. Todos os direitos reservados.</p>
-        <p>Desenvolvido por Kevin Rock Miranda dos Santos Guiomar.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2026 BODYGYM Vila Cácia. Todos os direitos reservados.</p>
+    <p>Desenvolvido por Kevin Rock Miranda dos Santos Guiomar.</p>
+  </footer>
 </body>
 </html>

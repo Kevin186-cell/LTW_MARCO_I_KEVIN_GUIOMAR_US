@@ -56,3 +56,4 @@ O menu principal está presente no topo de todas as páginas com a seguinte estr
 * **Para que a usei:** Organização da estrutura do documento de planeamento (`README.md`), revisão dos requisitos funcionais/não funcionais e apoio na estruturação semântica do código HTML5.
 * **O que aceitei, alterei ou rejeitei:** Aceitei a estrutura sugerida para o plano e adaptei os textos, horários e serviços à realidade específica do ginásio BODYGYM em Vila Cácia.
 * **Consigo explicar todo o código que entreguei:** sim
+## Usei a IA para me auxiliar Flexbox, Grid e responsividade

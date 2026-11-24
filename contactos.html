@@ -1,72 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BODYGYM - Contactos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BODYGYM - Contactos</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <p><strong>BODYGYM - Vila Cácia</strong></p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="servicos.html">Serviços e Horários</a></li>
-                <li><a href="contactos.html">Contactos</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <strong class="logo-texto">BODYGYM - Vila Cácia</strong>
+    <nav class="menu-horizontal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="servicos.html">Serviços e Horários</a></li>
+        <li><a href="contactos.html" class="ativo" aria-current="page">Contactos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <h1>Contacte o BODYGYM</h1>
+  <main>
+    <h1>Contacte o BODYGYM</h1>
 
-        <section>
-            <h2>Onde Estamos</h2>
-            <p><strong>Morada:</strong> Rua Principal, Vila Cácia, Cabo Verde</p>
-            <p><strong>Telefone / WhatsApp:</strong> +238 991 00 00</p>
-            <p><strong>E-mail:</strong> geral@bodygym.cv</p>
-            <p><strong>Horário de Funcionamento:</strong> Segunda a Sexta das 06:30 às 21:00 | Sábado das 08:00 às 14:00</p>
-        </section>
+    <section class="secao-borda">
+      <h2>Onde Estamos</h2>
+      <p><strong>Morada:</strong> Rua Principal, Vila Cácia, Cabo Verde</p>
+      <p><strong>Telefone / WhatsApp:</strong> +238 991 00 00</p>
+      <p><strong>E-mail:</strong> geral@bodygym.cv</p>
+      <p><strong>Horário de Funcionamento:</strong> Segunda a Sexta das 06:30 às 21:00 | Sábado das 08:00 às 14:00</p>
+    </section>
 
-        <section>
-            <h2>Agende a Sua Aula Experimental ou Envie Mensagem</h2>
-            <form action="#" method="post">
-                <p>
-                    <label for="nome">Nome Completo:</label><br>
-                    <input type="text" id="nome" name="nome" required>
-                </p>
-                <p>
-                    <label for="email">E-mail:</label><br>
-                    <input type="email" id="email" name="email" required>
-                </p>
-                <p>
-                    <label for="telefone">Telefone:</label><br>
-                    <input type="tel" id="telefone" name="telefone">
-                </p>
-                <p>
-                    <label for="modalidade">Modalidade de Interesse:</label><br>
-                    <select id="modalidade" name="modalidade">
-                        <option value="musculacao">Musculação</option>
-                        <option value="funcional">Treino Funcional</option>
-                        <option value="zumba">Zumba / Aeróbica</option>
-                        <option value="aula_experimental">Aula Experimental Gratuita</option>
-                    </select>
-                </p>
-                <p>
-                    <label for="mensagem">Mensagem:</label><br>
-                    <textarea id="mensagem" name="mensagem" rows="4" cols="40" required></textarea>
-                </p>
-                <p>
-                    <button type="submit">Enviar Pedido</button>
-                </p>
-            </form>
-        </section>
-    </main>
+    <section>
+      <h2>Agende a Sua Aula Experimental ou Envie Mensagem</h2>
+      <form action="#" method="post">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
 
-    <footer>
-        <p>&copy; 2026 BODYGYM Vila Cácia. Todos os direitos reservados.</p>
-        <p>Desenvolvido por Kevin Rock Miranda dos Santos Guiomar.</p>
-    </footer>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone">
+
+        <label for="modalidade">Modalidade de Interesse:</label>
+        <select id="modalidade" name="modalidade">
+          <option value="musculacao">Musculação</option>
+          <option value="funcional">Treino Funcional</option>
+          <option value="zumba">Zumba / Aeróbica</option>
+          <option value="experimental">Aula Experimental Gratuita</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar Pedido</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 BODYGYM Vila Cácia. Todos os direitos reservados.</p>
+    <p>Desenvolvido por Kevin Rock Miranda dos Santos Guiomar.</p>
+  </footer>
 </body>
 </html>
