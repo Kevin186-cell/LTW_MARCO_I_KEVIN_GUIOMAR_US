@@ -1,0 +1,12 @@
+:root {
+  --cor-principal: #d32f2f;   /* Vermelho energético para ginásio */
+  --cor-escura: #1a1a1a;      /* Preto/cinza escuro para cabeçalho e contrastes */
+  --cor-clara: #f4f4f4;       /* Cinza claro para fundos secundários */
+  --cor-fundo: #ffffff;       /* Fundo principal branco */
+  --cor-texto: #222222;       /* Texto escuro com alto contraste (> 4.5:1) */
+  --cor-realce: #ff9800;      /* Laranja para foco e destaques */
+}
+
+* {
+  box-sizing: border-box;
+}
